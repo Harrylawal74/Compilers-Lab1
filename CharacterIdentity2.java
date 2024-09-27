@@ -63,7 +63,7 @@ public class CharacterIdentity2 {
 
                 //if character's Unicode value is above 127 then output error message 
             }else if (characterCode > 127){
-                System.out.print("unprintable");
+                System.out.print(character+" : unprintable\n");
             }
         }
     }
